@@ -20,16 +20,16 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "37367228022",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("sorin") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
     DEV: process.env.DEV || "923427582273",                     // Developer's contact number
     DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*KHAN MD VIEWED YOUR STATUS 🤖*",  // Status reply message
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*true*",  // Status reply message
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",          // Mark messages as read automatically?
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
@@ -47,10 +47,10 @@ module.exports = {
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // true antidelete to recover deleted messages 
     ANTI_CALL: process.env.ANTI_CALL || "false", // enble to reject calls automatically 
-    ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",    // Block bad words?
+    ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",    // Block bad words?
     ANTI_LINK: process.env.ANTI_LINK || "true",    // Block links in groups
     ANTI_VV: process.env.ANTI_VV || "true",   // Block view-once messages
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",          // Auto-delete links?
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",          // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // inbox deleted messages (or 'same' to resend)
     ANTI_BOT: process.env.ANTI_BOT || "true",
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
@@ -64,6 +64,6 @@ module.exports = {
     AUTO_BIO: process.env.AUTO_BIO || "false", // ture to get auto bio 
     WELCOME: process.env.WELCOME || "false", // true to get welcome in groups 
     GOODBYE: process.env.GOODBYE || "false", // true to get goodbye in groups 
-    ADMIN_ACTION: process.env.ADMIN_ACTION || "false", // true if want see admin activity 
+    ADMIN_ACTION: process.env.ADMIN_ACTION || "true", // true if want see admin activity 
 };
         
